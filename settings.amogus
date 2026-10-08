@@ -1,0 +1,130 @@
+{
+  "gameplay": {
+    "screenShake": false,
+    "streamerMode": false
+  },
+  "accessibility": {
+    "colorBlindMode": true
+  },
+  "audio": {
+    "musicVolume": 0.4196298,
+    "ambienceVolume": 0.6,
+    "sfxVolume": 0.465925932
+  },
+  "video": {
+    "vsync": false
+  },
+  "language": {
+    "currentLanguage": "Latam"
+  },
+  "input": {
+    "inputMode": 0,
+    "mouseMovementEnabled": false,
+    "touchJoystickSize": 1.5,
+    "inputData": {
+      "initialization": "initialized"
+    }
+  },
+  "multiplayer": {
+    "crossPlay": true,
+    "allowFriendInvites": true,
+    "censorChat": false,
+    "chatMode": 1,
+    "quickChatFavs": [],
+    "lastPlayedGameMode": 1,
+    "normalHostOptions": "CoQAAAEAZAoAAQAAAQAAgD8AAIA/AADAPwAABBBBAQIBAAAAAQEPAAAAeAAAAAAPAQEAAAAJBQAAAAMAAAAACAIAAAACAAAABQQAAAADAAAACgADAAAAAgAAAA8IAAAAAgAACgEJAAAAAgAAAA4KAAAAAwAAAA4BDAAAAAEAAAMSAAFkAQAAAQ==",
+    "normalSearchOptions": "CoQAAAEAAAoAAQAAAAAAgD8AAIA/AADAPwAAcEEBAQIBAAAAAQEPAAAAeAAAAAEAAQEAAAAJBQAAAAMAAAAKCAIAAAACAAAPBQQAAAADAAA8CgADAAAAAgAAHg8IAAAAAgAACgEJAAAAAgAADx4KAAAAAwAADx4BDAAAAAEAAAMSAAAAAQAADw==",
+    "hideNSeekHostOptions": "CkIAAAIAAA8AAQAAAAAAgD8AAIA/AADAPwEBAgEBAAAAAABIQzMzsz4AAIA+AQEAAEhCmpmZPwEA/////wAAwEAAAEBAAA==",
+    "hideNSeekSearchOptions": "CkIAAAIAAA8AAQAAAAAAgD8AAIA/AADAPwEBAgEBAAAAAABIQzMzsz4AAIA+AQEAAEhCmpmZPwEA/////wAAwEAAAEBAAA==",
+    "gameFilterRefreshDate": "0001-01-01T00:00:00",
+    "gameFilterTags": [
+      "Principiante",
+      "Casual",
+      "Serio",
+      "Experto"
+    ],
+    "hostFilterTags": [
+      "Principiante"
+    ],
+    "searchFilterTags": [
+      "Principiante"
+    ],
+    "filterDictionary": {},
+    "classicFilterSet": {
+      "GameMode": 1,
+      "Filters": [
+        {
+          "OptionType": "map",
+          "Key": "Map",
+          "SubFilterString": "{\"AcceptedValues\":1,\"FilterType\":\"map\"}"
+        },
+        {
+          "OptionType": "int",
+          "Key": "ImpostorNumber",
+          "SubFilterString": "{\"AcceptedValues\":[3],\"OptionEnum\":1,\"FilterType\":\"int\"}"
+        },
+        {
+          "OptionType": "bool",
+          "Key": "Roles",
+          "SubFilterString": "{\"AcceptedValues\":[true],\"OptionEnum\":11,\"FilterType\":\"bool\"}"
+        },
+        {
+          "OptionType": "cat",
+          "Key": "PlayerSpeed",
+          "SubFilterString": "{\"AcceptedValues\":[2],\"OptionEnum\":1,\"FilterType\":\"cat\"}"
+        },
+        {
+          "OptionType": "cat",
+          "Key": "KillCooldown",
+          "SubFilterString": "{\"AcceptedValues\":[0],\"OptionEnum\":0,\"FilterType\":\"cat\"}"
+        },
+        {
+          "OptionType": "bool",
+          "Key": "VisualTasks",
+          "SubFilterString": "{\"AcceptedValues\":[true],\"OptionEnum\":1,\"FilterType\":\"bool\"}"
+        },
+        {
+          "OptionType": "bool",
+          "Key": "AnonymousVotes",
+          "SubFilterString": "{\"AcceptedValues\":[true],\"OptionEnum\":4,\"FilterType\":\"bool\"}"
+        },
+        {
+          "OptionType": "bool",
+          "Key": "ConfirmEjects",
+          "SubFilterString": "{\"AcceptedValues\":[true],\"OptionEnum\":3,\"FilterType\":\"bool\"}"
+        },
+        {
+          "OptionType": "chat",
+          "Key": "Chat",
+          "SubFilterString": "{\"AcceptedValues\":1,\"FilterType\":\"chat\"}"
+        },
+        {
+          "OptionType": "languages",
+          "Key": "Language",
+          "SubFilterString": "{\"AcceptedValues\":2,\"FilterType\":\"languages\"}"
+        }
+      ]
+    },
+    "hnsFilterSet": {
+      "GameMode": 2,
+      "Filters": [
+        {
+          "OptionType": "map",
+          "Key": "Map",
+          "SubFilterString": "{\"AcceptedValues\":1,\"FilterType\":\"map\"}"
+        },
+        {
+          "OptionType": "chat",
+          "Key": "Chat",
+          "SubFilterString": "{\"AcceptedValues\":1,\"FilterType\":\"chat\"}"
+        },
+        {
+          "OptionType": "languages",
+          "Key": "Language",
+          "SubFilterString": "{\"AcceptedValues\":2,\"FilterType\":\"languages\"}"
+        }
+      ]
+    }
+  },
+  "dataVersion": 1
+}

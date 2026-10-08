@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HEART.EXE — Derik</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stars"></div>
+
+<section id="boot" class="boot screen">
+  <div class="terminal">
+    <div class="bar"><i></i><i></i><i></i><span>/usr/local/birthday_protocol</span></div>
+    <div class="term-body">
+<pre>╔══════════════════════════════════════╗
+        B I R T H D A Y . E X E
+╚══════════════════════════════════════╝</pre>
+      <div id="logs"></div>
+      <button id="execute" disabled>▶ EXECUTE BIRTHDAY.EXE</button>
+    </div>
+  </div>
+</section>
+
+<section id="decrypt" class="screen hidden">
+  <div class="decrypt">
+    <p>FINAL FILE DECRYPTED</p>
+    <div class="bar-progress"><b id="progress"></b></div>
+    <span id="decryptText">Decrypting memories...</span>
+  </div>
+</section>
+
+<section id="site" class="hidden">
+<header class="hero">
+  <div class="hero-orbit"><span>♥</span></div>
+  <p class="eyebrow">13 · 08 · 2026</p>
+  <div class="title-line"><span class="title-kicker">A PRIVATE FILE FOR</span><h1>Derik</h1><em>corazoncito.</em></div>
+  <p>Después de todas las pruebas, por fin has desbloqueado el archivo que realmente quería que encontraras.</p>
+  <button id="openLetter">ABRIR LA CARTA</button>
+</header>
+
+<section class="music-card reveal">
+<div><small>OUR SOUNDTRACK</small><h2>Dos canciones. Una historia.</h2><p>Hay canciones que simplemente suenan bien. Y luego están las que terminan teniendo un significado propio.</p></div>
+<div class="players">
+<div class="song"><span>01</span><strong>Ordinary</strong><button class="play" data-song="ordinary">▶</button></div>
+<div class="song"><span>02</span><strong>Perfect</strong><button class="play" data-song="perfect">▶</button></div>
+</div>
+<audio id="ordinary" src="assets/ordinary.mp3" preload="metadata"></audio>
+<audio id="perfect" src="assets/perfect.mp3" preload="metadata"></audio>
+</section>
+<section class="timeline reveal">
+<div class="section-head"><small>RELATIONSHIP.LOG</small><h2>Cómo empezó todo</h2><p>Algunas fechas que terminaron convirtiéndose en parte de nuestra historia.</p></div>
+<div class="timeline-line">
+<article><span>01</span><time>11 · 06</time><h3>La primera conversación</h3><p>El día que hablamos por primera vez. Sin saber todavía todo lo que iba a venir después.</p></article>
+<article><span>02</span><time>18 · 06</time><h3>Una confesión inesperada</h3><p>Te declaraste. Yo dije que no, pero decidimos seguir conociéndonos y ver qué podía pasar entre nosotros.</p></article>
+<article><span>03</span><time>20 · 01</time><h3>Cuando te dije que me gustabas</h3><p>El momento en el que finalmente te dije lo que sentía por ti.</p></article>
+<article><span>04</span><time>26 · 06 · PE / 27 · 06 · ES</time><h3>El día que elegimos ser nosotros</h3><p>Me pediste ser tu pareja. Dije que sí. Y desde entonces existe oficialmente nuestro «nosotros».</p></article>
+<article><span>05</span><time>13 · 08 · 2026</time><h3>Tu cumpleaños</h3><p>Y hoy estoy aquí, convirtiendo un regalo en una pequeña aventura para celebrar que existes.</p></article>
+</div></section>
+<div class="layout">
+<nav id="nav">
+  <small>MEMORY DATABASE</small>
+  <button data-id="ch1">01 — Antes de ti</button>
+  <button data-id="ch2">02 — Nosotros</button>
+  <button data-id="ch3">03 — Nuestras locuras</button>
+  <button data-id="ch4">04 — Las conversaciones</button>
+  <button data-id="ch5">05 — Siete horas</button>
+  <button data-id="ch6">06 — Mi primer pensamiento</button>
+  <button data-id="ch7">07 — Todo lo que quiero vivir</button>
+  <button data-id="ch8">08 — Lo que significas</button>
+  <button data-id="ch9">09 — Gracias</button>
+  <button data-id="ch10">10 — Hoy</button>
+  <button data-id="ch11">11 — Tu cumpleaños</button>
+  <button data-id="ch12">12 — Y si algún día...</button>
+  <button data-id="ch13">13 — Para terminar</button>
+</nav>
+
+<article class="letter">
+<div class="meta"><span>TO: DERIK</span><span>FROM: SARA</span><span>STATUS: UNLOCKED ♥</span></div>
+
+<section id="ch1"><label>01</label><h2>Antes de que fueras tú</h2>
+<p>Antes de ti, sinceramente, no sabía cómo iba a sentirse enamorarse de alguien.</p>
+<p>No sabía lo que era tener a una persona que apareciera en mis pensamientos prácticamente sin pedir permiso. No sabía lo que era querer contarle absolutamente todo a alguien, desde la cosa más absurda que me pasó durante el día hasta aquello que me preocupa y no sé cómo explicar.</p>
+<p class="highlight-script">Y entonces apareciste tú.</p><p>Eres la primera persona que consiguió enamorarme de verdad. Mi primer novio. Mi primer amor.</p>
+<p>Y quizá por eso hay tantas cosas de nosotros que significan muchísimo más para mí de lo que puedas imaginar.</p>
+<p>Me hace feliz que seas tú el primero. El primero con quien estoy viviendo todas estas cosas, el primero con quien estoy aprendiendo qué significa querer a alguien de esta manera y el primero con quien estoy construyendo algo que, aunque haya empezado detrás de una pantalla, para mí nunca se ha sentido como algo pequeño o menos real.</p>
+<p>A veces pienso en cómo empezó todo y me cuesta creer todo lo que hemos terminado viviendo desde entonces.</p>
+<p>Y sí, a veces extraño al tú de antes. Extraño tener más tiempo contigo, aquellas épocas en las que podíamos hablar muchísimo más y parecía que nunca se terminaba la conversación.</p>
+<p>Pero también entiendo que estás creciendo, que tienes tus cosas, tus responsabilidades y tus propios problemas.</p>
+<p>Así que no quiero que sientas que tienes que estar disponible todo el tiempo para mí.</p><p>No quiero que te preocupes por eso, amor.</p>
+<p>Lo que tenemos no se mide por la cantidad de mensajes que intercambiamos durante un día.</p><p>Se mide por lo que siento cuando finalmente apareces.</p><p>Y eso sigue estando ahí.</p></section>
+
+<section id="ch2"><label>02</label><h2>Nosotros</h2>
+<p>Han pasado muchísimas cosas desde que empezamos.</p><p>Momentos preciosos.</p><p>Momentos absurdos.</p><p>Momentos en los que probablemente los dos pensamos: «¿pero qué estamos haciendo?»</p>
+<p>Y también discusiones, malentendidos, enfados y momentos complicados.</p><p>Pero hay algo que tengo clarísimo:</p><p class="emphasis">Jamás cambiaría lo que somos.</p>
+<p>Ni siquiera cuando estoy cabreada contigo.</p><p>Ni siquiera cuando discutimos.</p><p>Ni siquiera cuando siento que ninguno de los dos está entendiendo al otro.</p>
+<p>Porque incluso después de todo eso, sigues siendo tú.</p><p class="highlight-small">Mi persona.</p><p class="highlight-small">Mi corazoncito.</p>
+<p>Y prefiero mil veces arreglar las cosas contigo, aprender de nuestros errores y seguir creciendo juntos, que imaginar una vida en la que nunca hubieras aparecido.</p>
+<p>No quiero una relación perfecta.</p><p>Quiero una relación nuestra.</p>
+<p>Con nuestras bromas tontas, nuestras locuras, nuestras conversaciones interminables, nuestras pequeñas peleas, nuestras reconciliaciones, nuestras llamadas y todas esas cosas que probablemente para otra persona no significarían absolutamente nada, pero que para mí significan muchísimo.</p></section>
+
+<section id="ch3"><label>03</label><h2>Nuestras locuras</h2>
+<p>Adoro nuestras locuras.</p><p>Adoro cuando podemos pasar de estar hablando de algo completamente serio a decir la mayor tontería del mundo en cuestión de segundos.</p><p>Adoro nuestras conversaciones que empiezan hablando de una cosa y terminan en cualquier otro sitio.</p><p>Adoro cuando somos nosotros mismos sin preocuparnos demasiado por cómo nos vemos desde fuera.</p><p>Y también adoro esos momentos en los que somos dos fogatas que nunca terminan de apagarse el uno por el otro.</p><p>Tenemos esa chispa que, por mucho tiempo que pase, sigue apareciendo.</p><p>Y no voy a negar que es una de mis partes favoritas de nosotros.</p><p>Pero lo que más me gusta es que no somos solamente eso.</p><p>Porque también tenemos una parte mucho más profunda.</p></section>
+
+<section id="ch4"><label>04</label><h2>Las conversaciones que importan</h2>
+<p>Me encantan nuestras conversaciones serias.</p><p>Cuando hablamos de nuestro futuro.</p><p>Cuando hablamos de nuestras familias.</p><p>Cuando hablamos de nuestros amigos.</p><p>Cuando alguno de los dos está preocupado por algo.</p><p>Cuando simplemente necesitas desahogarte y yo quiero escucharte.</p><p>Y especialmente cuando soy yo la que está mal.</p><p>Porque muchas veces sabes exactamente qué decir para conseguir que me calme, que deje de darle vueltas a las cosas o simplemente que vuelva a sonreír.</p><p>Puede que no tengas una solución mágica para todo.</p><p>Pero muchas veces tampoco necesito una.</p><p>A veces simplemente necesito saber que estás ahí.</p><p>Y tú consigues hacerme sentir acompañada incluso estando a miles de kilómetros.</p></section>
+
+<section id="ch5"><label>05</label><h2>Siete horas</h2>
+<p>Hay algo bastante injusto en quererte a tantos kilómetros de distancia.</p><p class="highlight-line">Siete horas.</p><p>Siete horas que hacen que cuando yo estoy despierta tú puedas estar durmiendo.</p><p>Que cuando yo tenga ganas de hablar tú estés trabajando.</p><p>Que cuando tú tengas tiempo yo esté ocupada.</p><p>Y que muchas veces tengamos que conformarnos con una llamada corta cuando ambos querríamos quedarnos hablando durante horas.</p><p>Pero aun así...</p><p class="highlight-script">No cambiaría esos momentos por nada.</p><p>Porque incluso una llamada de diez minutos contigo puede conseguir cambiarme completamente el día.</p><p class="highlight-script">Tu voz tiene algo que no sé explicar.</p><p>Me calma.</p><p>Me hace sonreír.</p><p>Me hace sentir cerca de ti.</p><p>Y quizá por eso adoro tanto nuestras llamadas.</p><p>No importa cuánto duren.</p><p>Cuando escucho tu voz, por unos minutos la distancia parece desaparecer.</p></section>
+
+<section id="ch6"><label>06</label><h2>Mi primer pensamiento</h2>
+<p class="highlight-line">Eres mi primer pensamiento de la mañana.</p><p>Y muchas veces también mi último pensamiento de la noche.</p><p>A veces me despierto y lo primero que hago es mirar el móvil pensando si habrás escrito.</p><p>Y otras veces me voy a dormir pensando en alguna conversación que tuvimos, en alguna tontería que dijiste o simplemente en ti.</p><p>Te has convertido en una parte de mi rutina sin que yo siquiera me diera cuenta.</p><p>Y creo que eso es una de las cosas más bonitas que me han pasado.</p><p>Porque no eres solamente alguien con quien hablo.</p><p>Eres alguien que forma parte de mis días.</p><p>De mis pensamientos.</p><p>De mis planes.</p><p>De mis ganas de hacer cosas.</p><p>De mis recuerdos.</p><p>Y de todo aquello que todavía quiero vivir.</p></section>
+
+<section id="ch7"><label>07</label><h2>Todo lo que quiero vivir contigo</h2>
+<p>Hay tantas cosas que todavía quiero hacer contigo.</p><p>Quiero tener conversaciones que no terminen porque uno de los dos tiene que dormir.</p><p>Quiero llamarte y que no tengamos que mirar el reloj.</p><p>Quiero poder abrazarte después de una discusión en lugar de tener que conformarnos con escribirnos.</p><p>Quiero escuchar tu voz estando a tu lado.</p><p>Quiero conocer tus lugares favoritos.</p><p>Quiero enseñarte los míos.</p><p>Quiero salir contigo, hacer tonterías, aburrirnos juntos, ver películas, jugar, comer cualquier cosa y simplemente pasar un día normal contigo.</p><p>Porque creo que algún día serán precisamente esos días normales los que más voy a valorar.</p><p>No necesito que nuestra vida sea perfecta.</p><p>Quiero poder compartir contigo las cosas pequeñas.</p><p>Un desayuno.</p><p>Una tarde cualquiera.</p><p>Una llamada.</p><p>Una caminata.</p><p>Una noche hablando hasta que nos demos cuenta de que deberíamos estar durmiendo hace horas.</p><p>Quiero construir recuerdos contigo que no necesiten una pantalla para existir.</p></section>
+
+<section id="ch8"><label>08</label><h2>Lo que significas para mí</h2>
+<p class="highlight-script">Te amo muchísimo, corazoncito.</p><p>Más de lo que muchas veces sé explicar.</p><p>Y aunque decir «te amo» parezca una frase pequeña, para mí contiene muchísimo.</p><p>Contiene todas las veces que he pensado en ti.</p><p>Todas las veces que he sonreído por algo que hiciste.</p><p>Todas las veces que he esperado tu mensaje.</p><p>Todas las veces que tu voz consiguió tranquilizarme.</p><p>Todas nuestras conversaciones.</p><p>Todas nuestras locuras.</p><p>Todas nuestras discusiones que conseguimos superar.</p><p>Todos nuestros momentos.</p><p>Todo lo que hemos aprendido juntos.</p><p>Y todo lo que todavía nos queda por aprender.</p><p>No eres perfecto.</p><p>Yo tampoco lo soy.</p><p>Y probablemente seguiremos equivocándonos.</p><p>Seguiremos teniendo días malos.</p><p>Seguiremos discutiendo alguna vez.</p><p>Pero quiero que sepas que eso no cambia el lugar que tienes en mi corazón.</p><p>Porque amar a alguien no significa que nunca vaya a existir un problema.</p><p>Significa querer seguir ahí cuando aparezca uno.</p></section>
+
+<section id="ch9"><label>09</label><h2>Gracias</h2>
+<p>Gracias por haber aparecido en mi vida.</p><p>Gracias por haber conseguido que alguien como yo se enamorara de esta manera.</p><p>Gracias por escucharme.</p><p>Gracias por hacerme reír.</p><p>Gracias por aguantar mis momentos de enfado.</p><p>Gracias por todas las veces que me has calmado.</p><p>Gracias por cada llamada.</p><p>Gracias por cada conversación.</p><p>Gracias por cada «buenos días».</p><p>Gracias por cada «buenas noches».</p><p>Gracias por cada momento bonito que hemos compartido.</p><p>Y gracias incluso por los momentos difíciles.</p><p>Porque aunque en ese momento no lo parezca, también nos han enseñado cosas.</p><p>Nos han obligado a hablar.</p><p>A entendernos.</p><p>A conocernos mejor.</p><p>A aprender cómo queremos querernos.</p></section>
+
+<section id="ch10"><label>10</label><h2>Hoy</h2>
+<p>Y hoy es diferente.</p><p>Porque hoy no quiero hablar de ningún problema.</p><p>No quiero hablar de ninguna discusión.</p><p>No quiero hablar de distancia, horarios, trabajo ni de nada que pueda hacernos olvidar lo importante.</p><p class="highlight-line">Hoy simplemente quiero celebrar que existes.</p><p>Que naciste.</p><p>Que en algún momento del mundo apareció un niño llamado Derik que años después terminaría convirtiéndose en la persona que ocupa una parte tan enorme de mi corazón.</p><p>Y no sabes lo feliz que me hace poder estar aquí para celebrarlo contigo.</p><p>Aunque no pueda estar físicamente a tu lado.</p><p>Aunque no pueda darte un abrazo.</p><p>Aunque no pueda aparecer con una tarta y cantarte cumpleaños.</p><p>Quiero que cuando leas esto sientas, aunque sea durante un momento, que estoy ahí contigo.</p></section>
+
+<section id="ch11"><label>11</label><h2>Tu cumpleaños</h2>
+<p>Así que...</p><p class="emphasis">Feliz cumpleaños, mi amor.</p><p>Feliz cumpleaños a la persona que consiguió convertirse en mi primer amor.</p><p>Feliz cumpleaños a mi corazoncito.</p><p>Feliz cumpleaños a mi persona favorita.</p><p>Espero que este nuevo año de tu vida te traiga muchísimas cosas bonitas.</p><p>Que consigas todo aquello que te propongas.</p><p>Que sigas creciendo.</p><p>Que sigas aprendiendo.</p><p>Que sigas siendo tú.</p><p>Y espero poder estar ahí para verlo.</p><p>Para celebrar tus logros.</p><p>Para acompañarte cuando las cosas no salgan bien.</p><p>Para reírme contigo.</p><p>Para escucharte.</p><p>Para molestarte.</p><p>Para quererte.</p><p>Y para seguir acumulando recuerdos contigo.</p></section>
+
+<section id="ch12"><label>12</label><h2>Y si algún día...</h2>
+<p>Si algún día vuelves a leer esto y han pasado meses o años, quiero que recuerdes una cosa.</p><p>Hubo una chica que un 13 de agosto decidió hacerte pasar por un montón de contraseñas, códigos, hashes y preguntas absurdas solamente para terminar diciéndote algo que probablemente podría haberte dicho desde el principio.</p><p class="highlight-script">Que te ama.</p><p>Muchísimo.</p><p>Y que, a pesar de todos los kilómetros que haya entre nosotros, hubo momentos en los que conseguiste sentirte tan cerca que la distancia dejó de importar.</p><p>Espero que cuando vuelvas a leer esto sigamos teniendo nuestras locuras.</p><p>Que sigamos llamándonos nuestros apodos.</p><p>Que siga existiendo nuestro «bomboncita» y nuestro «corazoncito».</p><p>Que sigamos teniendo canciones que nos recuerden el uno al otro.</p><p>Que sigamos hablando de nuestro futuro.</p><p>Y, sobre todo, espero que cuando mires atrás puedas decir:</p><p class="quote">«Valió la pena.»</p></section>
+
+<section id="ch13"><label>13</label><h2>El último archivo</h2>
+<p>Después de todas las pruebas que has tenido que superar para llegar hasta aquí...</p><p>Después de convertir palabras en hexadecimal.</p><p>Después de hashes.</p><p>Después de Base64.</p><p>Después de binario.</p><p>Después de recordar fechas, nombres, canciones y nuestros pequeños detalles...</p><p>Finalmente has desbloqueado el archivo más importante.</p><p>Y resulta que no estaba cifrado.</p><p>Nunca necesitó una contraseña.</p><p>Porque era algo que quería decirte desde el principio:</p><p class="big-love">Te amo.</p><p>Te amo por quien eres.</p><p>Por cómo me haces sentir.</p><p>Por cómo consigues hacerme sonreír incluso cuando estoy teniendo un día horrible.</p><p>Por cómo me escuchas.</p><p>Por cómo me acompañas.</p><p>Por todas nuestras locuras.</p><p>Por nuestras conversaciones serias.</p><p>Por nuestras llamadas.</p><p>Por nuestra historia.</p><p>Por todo lo que hemos vivido.</p><p>Y por todo lo que todavía nos queda.</p><p>No sé qué nos deparará el futuro.</p><p>Pero sí sé que hoy, 13 de agosto, quiero que sepas que estoy muy feliz de poder llamarte mi novio.</p><p>Y que, si pudiera volver atrás y elegir de nuevo...</p><p class="emphasis">Te volvería a elegir a ti.</p><p>Una y otra vez.</p><p>Sin importar los kilómetros.</p><p>Sin importar las siete horas.</p><p>Sin importar las discusiones.</p><p>Sin importar los días difíciles.</p><p class="highlight-script">Te elegiría a ti.</p><p class="highlight-small">Siempre.</p>
+<div class="signature"><p>Feliz cumpleaños, Derik.</p><p>Feliz vida, mi corazoncito.</p><p>Espero poder seguir formando parte de ella durante muchísimo tiempo.</p><p class="sig-love">Te amo más que mi vida entera.</p><strong>♥</strong><small>— Sara</small></div>
+</section>
+
+<footer><span>HEART.EXE</span><span>STATUS: COMPLETE</span><span>13.08.2026</span></footer>
+</article>
+</div>
+
+<section class="final-screen reveal">
+  <p class="terminal-mini">SYSTEM MESSAGE</p>
+  <h2>There is no more data to decrypt.</h2>
+  <p>Pero si sigues aquí...</p>
+  <p class="final-love">I love you.</p>
+  <small>— Sara</small>
+</section>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
